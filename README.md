@@ -1,11 +1,11 @@
-# Adventure-website
+# Adventure(TREK)-website
 
 ## Introduction
-Welcome to our travel website project! This website is designed to provide users with a seamless experience for planning their next adventure. Whether you're looking for destination inspiration, hotel accommodations, or activity recommendations, our platform has you covered.
+Welcome to our TREK website project! This website is designed to provide users with a seamless experience for planning their next adventure. Whether you're looking for destination inspiration, hotel accommodations, or activity recommendations, our platform has you covered.
 
-Check out our deployed site [here](https://www.Aventurewebsite.com).
+Check out our deployed site [here](https://www.TREKwebsite.com).
 
-To learn more about the development process and features, please read our final project blog article [here](https://www.Adventurewebsite.com/blog).
+To learn more about the development process and features, please read our final project blog article [here](https://www.TREKwebsite.com/blog).
 
 
 ## Installation
