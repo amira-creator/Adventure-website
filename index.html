@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADVENTURE</title>
+    <title>Adventure</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png" />
-   
+    <!-- 
+    - favicon
+  -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🪂</text></svg>">
+
+    <link rel="manifest" href="/site.webmanifest" />
 </head>
 
 <body
@@ -16,9 +23,8 @@
 
     <!--navbar-->
     <nav class="navbar glass" style="height: 70px">
-        <span><a href="#home" style="display: flex; align-items: center">
-                <h1 class="logo">ADVENTURE</h1>
-            </a></span>
+              
+                <h1 class="logo">🕊TREK</h1>
         <ul class="nav-links">
             <li>
                 <a href="#home" id="pri" class="active cir_border">Home</a>
@@ -52,9 +58,9 @@
 
     <header id="home">
         <div class="header-content">
-            <h2 id="quote">Explore the colourful World</h2>
+        <h2 id="quote">Discover Vibrant Realms</h2>
             <div class="line"></div>
-            <h1>A WONDERFUL GIFT</h1>
+            <h1>A Marvelous Present</h1>
             <a href="#about" class="ctn"
                 onclick='removeall(); $("#quad").css("border", "2px solid whitesmoke"); $("#quad").css("border-radius", "20px");'>Learn
                 more</a>
@@ -161,10 +167,17 @@
                     <input type="radio" name="slider" id="item-1" checked />
                     <input type="radio" name="slider" id="item-2" />
                     <input type="radio" name="slider" id="item-3" />
-                    
-                       
-                       
-                   
+                    <div class="cards">
+                        <label class="cardt" for="item-1" id="col-img-1">
+                            <img src="./img/carousel-img1.jpg" />
+                        </label>
+                        <label class="cardt" for="item-2" id="col-img-2">
+                            <img src="./img/carousel-img2.jpg" />
+                        </label>
+                        <label class="cardt" for="item-3" id="col-img-3">
+                            <img src="./img/carousel-img3.jpg" />
+                        </label>
+                    </div>
                 </div>
                 <span id="about-quad"><a href="#home">
                         <center>
@@ -239,13 +252,13 @@
                     </a>
                 </div>
                 <div class="c_boxx">
-                    <a href="tel:+91 9999996633"><i class="fa fa-phone"></i>
+                    <a href="tel:+02 088 88 8888"><i class="fa fa-phone"></i>
                         Phone: (+91) 63835 4****
                     </a>
                 </div>
                 <div class="c_boxx">
                     <a href="#"><i class="fa fa-map-marker"></i>
-                        Location: Mayiladuthurai, Tamil Nadu , India.
+                        Location: ......
                     </a>
                 </div>
             </div>
@@ -257,156 +270,16 @@
     <i class="fa fa-chevron-up" onclick="topFunction()" id="upbtn"></i>
     <!-- end -->
 
-    <!--footer-->
-    <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
-        <div class="container">
-    
-          <div class="footer-top">
-    
-            <ul class="footer-list">
-    
-              <li>
-                <p class="footer-list-title">Top destination</p>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Indonesia, Jakarta</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Maldives, Malé</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Australia, Canberra</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Thailand, Bangkok</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Morocco, Rabat</a>
-              </li>
-    
-            </ul>
-    
-            <ul class="footer-list">
-    
-              <li>
-                <p class="footer-list-title">Categories</p>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Travel</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Lifestyle</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Fashion</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Education</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Food & Drink</a>
-              </li>
-    
-            </ul>
-    
-            <ul class="footer-list">
-    
-              <li>
-                <p class="footer-list-title">Quick links</p>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">About</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Contact</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Tours</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Booking</a>
-              </li>
-    
-              <li>
-                <a href="#" class="footer-link">Terms & Conditions</a>
-              </li>
-    
-            </ul>
-    
-            <div class="footer-list">
-    
-              <p class="footer-list-title">Get a newsletter</p>
-    
-              <p class="newsletter-text">
-                For the latest deals and tips, travel no further than your inbox
-              </p>
-    
-              <form action="" class="newsletter-form">
-                <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
-    
-                <button type="submit" class="btn btn-primary">Subscribe</button>
-              </form>
-    
-            </div>
-    
-          </div>
-    
-          <div class="footer-bottom">
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const navlinks = document.querySelector(".nav-links");
 
-            <ul class="social-list">
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-              </li>
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-twitter"></ion-icon>
-                </a>
-              </li>
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-              </li>
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-              </li>
-    
-              <li>
-                <a href="#" class="social-link">
-                  <ion-icon name="logo-google"></ion-icon>
-                </a>
-              </li>
-    
-            </ul>
-    
-          </div>
-    
-        </div>
-      </footer>
-     
-
+        menuBtn.addEventListener("click", () => {
+            navlinks.classList.toggle("mobile-menu");
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
