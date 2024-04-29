@@ -130,3 +130,4 @@ function updateNav() {
 }
 
 window.addEventListener("scroll", updateNav);
+ //End 
