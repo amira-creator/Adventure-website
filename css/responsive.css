@@ -1,4 +1,4 @@
-/* mobile responsiveness design */
+/* add mobile responsiveness design */
 @media screen and (max-width: 990px) {
   .contact_us {
     flex-direction: column;
@@ -167,3 +167,4 @@
     text-align: justify;
   }
 }
+/*End*/
